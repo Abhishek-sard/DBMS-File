@@ -1,0 +1,33 @@
+#steps to create the database by using CMD
+1. cd ..
+2. cd ..
+3. cd xammp
+4. cd mysql
+5. cd bin
+6. mysql -u root -p
+7. SHOW DATABASES;
+8. create database stocks_databases;
+9. Show databases;
+10. use stocks_databases;
+11. show tables;
+12. create table tblitem(
+    upc int(13)not null,
+    description varchar(50) not null,
+    price double not null
+);
+13. describe tblitem;
+14. insert into tblitem(upc,description,price
+values(123456,'suree cocnut 10g', 48.50));
+15. select * from tblitem;
+16. insert into tblitem(upc,description,price)
+ values(123456,'suree cocnut 10g', 48.50);
+17.select * from tblitem;
+18.delete from tblitem where upc = 12345;//you want to delete
+19. select * from tblitem;
+20.insert into tblitem(upc,description,price)
+ values(123456,'suree cocnut 10g', 48.50);
+21.insert into tblitem(upc,description,price)
+ values(11111111,'pansit canton 155g', 17.85);
+22. select * from tblitem;
+23. update tblitem set price = 20.25 where upc = 1111111;
+24. select * from tblitem;

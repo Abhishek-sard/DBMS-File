@@ -1,0 +1,22 @@
+1. introduction of Database system
+Database
+Database system
+objective
+characterstic
+Databasevls flat.file
+Advantage of DBMS
+Application
+Database Design for a university organization
+
+2. DBMS structure
+query processor
+storage manager
+one tier architecture
+two tier architecture
+three tier architecture
+
+3. database schema
+structure
+user
+table(u_id, NUmber, sample, pass)
+product(P-id, number, p, t u_id);
